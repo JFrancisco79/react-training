@@ -1,0 +1,13 @@
+<%- include("partials/header") %>
+<h1>Home</h1>
+<p><%= homeStartingContent %></p>
+
+<% diary.forEach( posts => { %>
+    <h2><%= posts.title %></h2>
+    <p><%= posts.preview %>
+        <a href="/posts/<%= posts.title %>" >Read More</a>
+    </p>
+<% }) %>
+
+
+<%- include("partials/footer") %>
