@@ -1,0 +1,170 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3 {
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section{
+    background-color: #D61355;
+    color: #FFF;
+}
+
+.white-section{
+    background-color: #FFF;
+    color: #000;
+}
+
+/* Navigation Bar */
+
+.big-heading {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.navbar {
+    padding: 0 0 4rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Download Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Titles */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title Image */
+.title-image {
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 970px) {
+    .title-image {
+        width: 40%;
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title .container-fluid{
+        text-align: center;
+    }
+}
+
+/* Font Awesome Icons */
+.fa-icon {
+    color: #D61355;
+    margin-bottom: 1rem;
+}
+
+.fa-icon:hover {
+    color: #ff4c68;
+}
+
+/* Feature Boxes */
+
+#features {
+    padding: 3rem 0;
+    position: relative;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+#features p, #footer p {
+    color: #8F8F8F;
+}
+
+/* Testimonials section */
+
+#testimonials h2 {
+    font-size: 2.5rem;
+}
+
+.testimonial-image {
+    width: 7%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+/* Press section */
+
+#press {
+    background-color: #D61355;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing h3 {
+    font-size: 1.5rem;
+}
+
+#pricing h2 {
+    font-size: 2.5rem;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+.cta-button {
+    margin: 50px 10px 0;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 5% 5% 1%;
+}
+
+.footer-icons {
+    color: #D61355;
+    margin-bottom: 1rem;
+}
+
+.footer-icons i {
+    margin: 0 0.5rem;
+}
